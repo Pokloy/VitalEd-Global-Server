@@ -1,0 +1,280 @@
+{
+	"info": {
+		"_postman_id": "7ea180e2-b195-4fdc-82b1-311f9b3963ff",
+		"name": "VitalEd-Server",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "30758220"
+	},
+	"item": [
+		{
+			"name": "AddHome",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"homeHead\": \"Your Gateway to Global Teaching Adventures: Unlocking Potential, Embracing Culture.\",\r\n    \"missionSubHead\": \"Our mission is to unlock the full potential of educators by providing them with opportunities to teach and grow on an international stage. We are committed to facilitating the exchange of knowledge and the appreciation of diverse cultures. Our journey is about more than just teaching; it's about embracing new horizons, cultures, and experiences. We believe that by connecting educators with unique global teaching adventures, we are not just shaping careers but fostering a broader understanding of the world. Join us in this remarkable journey, where teaching transcends borders, and culture becomes a classroom in itself.\",\r\n    \"isActive\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:4000/home/add"
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateHome",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"homeHead\": \"asadasdasdsd\",\r\n    \"missionSubHead\": \"asd\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:4000/home/update"
+			},
+			"response": []
+		},
+		{
+			"name": "ShowHome",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:4000/home/"
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteHome",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:4000/home/delete"
+			},
+			"response": []
+		},
+		{
+			"name": "AddUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\": \"Admin\",\r\n    \"password\": \"Admin22\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:4000/users/add"
+			},
+			"response": []
+		},
+		{
+			"name": "ShowUsers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:4000/users/"
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteUser",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:4000/users/657096c48ee63a6cb8290a13/delete"
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateUser",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"User\",\r\n    \"password\": \"User2222\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:4000/users/657096d98ee63a6cb8290a15/update"
+			},
+			"response": []
+		},
+		{
+			"name": "AddForTeachers",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ftSubHead\": \"asdasd\",\r\n    \"ftBelowSubHead\": \"asdasd\",\r\n    \"ftBenefitsSentence\": \"ssssss\",\r\n    \"ftBenefitsImage\":\"5454848s48s4s8s4s\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:4000/forteachers/add"
+			},
+			"response": []
+		},
+		{
+			"name": "showForTeachers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:4000/forteachers/"
+			},
+			"response": []
+		},
+		{
+			"name": "updateForTeachers",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ftSubHead\":\"Sample\",\r\n    \"ftBelowSubHead\": \"Sample2\",\r\n    \"ftBenefitsSentence\": \"Sample3\",\r\n    \"ftBenefitsImage\": \"Sample4\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:4000/forteachers/657153083d8e42770aa006ed/update"
+			},
+			"response": []
+		},
+		{
+			"name": "deleteForTeachers",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:4000/forteachers/6570a0400c5c8f49fddcca87/delete"
+			},
+			"response": []
+		},
+		{
+			"name": "AddAboutUs",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"auSubHead\": \"rrrrrrrr\",\r\n    \"auForTeachers\": \"qqqqqq\",\r\n    \"auForSchool\":\"ssssssssssaaaaaaaaaaa\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:4000/aboutus/add"
+			},
+			"response": []
+		},
+		{
+			"name": "ShowAboutUs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:4000/aboutus/"
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateAboutUs",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"auSubHead\": \"rrrrrrrr\",\r\n    \"auForTeachers\": \"55555555555555\",\r\n    \"auForSchool\":\"ssssssssssaaaaaaaaaaa\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:4000/aboutus/6571666fee5cbc01c1ff25a6/update"
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteAboutUs",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:4000/aboutus/657166a6ee5cbc01c1ff25af/delete"
+			},
+			"response": []
+		},
+		{
+			"name": "AddForSchools",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fsSubHead\":\"bbbbbb\",\r\n    \"fsBenefitsImage\": \"bbbbbbbb\",\r\n    \"fsBenefitsSentence\": \"8888888888\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:4000/forschools/add"
+			},
+			"response": []
+		},
+		{
+			"name": "ShowForSchools",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:4000/forschools/"
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateForSchools",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fsSubHead\":\"reqrqweasdsgdfg\",\r\n    \"fsBenefitsImage\": \"ssssss\",\r\n    \"fsBenefitsSentence\": \"dfgd5666\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:4000/forschools/65716c6697939876c4301e85/update"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:4000/forschools/65716c5280d3889476c2505a/delete"
+			},
+			"response": []
+		}
+	]
+}

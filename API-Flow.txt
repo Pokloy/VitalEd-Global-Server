@@ -1,0 +1,30 @@
+Home>Landing Heading = isActive,Update and Read/Show
+
+Home>Mission Sub Heading = isActive,Update and Read/Show
+
+
+
+AboutUs>Sub Heading = isActive,Update and Read/Show
+
+AboutUs>For Teachers Section = isActive,Update and Read/Show
+
+AboutUs>For School Districts Section = isActive,Update and Read/Show
+
+
+
+
+ForTeachers>Sub Heading = isActive,Update and Read/Show
+
+ForTeachers>Below Sub Heading = isActive,Update and Read/Show
+
+ForTeachers>Teachers Benefits Section Sentence = isActive,Update and Read/Show
+
+ForTeachers>Teachers Benefits Section Image = isActive,Update and Read/Show
+
+
+
+ForSchools>Sub Heading = isActive,Update and Read/Show
+
+ForSchools>Schools Benefits Images = isActive,Update and Read/Show
+
+ForSchools>Schools Benefits Sentences = isActive,Update and Read/Show
